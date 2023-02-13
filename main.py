@@ -72,7 +72,7 @@ async def upload(bot: Client, m: Message):
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     
-    Show = f"**Downloading:-**\n\n**Name :-** ```{name}\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
+    Show = f"**Downloading:-**\n\n**Name :-** ```{name}\n\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
     prog = await m.reply_text(Show)
     
     cc = f'>> **Name :** {name}'
