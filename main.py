@@ -46,7 +46,7 @@ os.makedirs("./downloads", exist_ok=True)
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nPress /link to download single link\nPress /ytdlp to know video info.\nPress /aio to download url.\n\nBot made by Unknown")
+    editable = await m.reply_text("𝐇𝐞𝐥𝐥𝐨 𝐈𝐦 𝐚 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n𝐏𝐫𝐞𝐬𝐬 /pyro 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤𝐬 𝐋𝐢𝐬𝐭𝐞𝐝 𝐢𝐧 𝐚 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐢𝐧 𝐓𝐡𝐞 𝐅𝐨𝐫𝐦𝐚𝐭 **Name:link**\n\n𝐏𝐫𝐞𝐬𝐬 /link 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐢𝐧𝐠𝐥𝐞 𝐋𝐢𝐧𝐤\n𝐏𝐫𝐞𝐬𝐬 /ytdlp 𝐓𝐨 𝐊𝐧𝐨𝐰 𝐕𝐢𝐝𝐞𝐨 𝐈𝐧𝐟𝐨\nPress /aio 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐔𝐫𝐥\n\n𝐁𝐨𝐭 𝐦𝐚𝐝𝐞 𝐛𝐲 𝐔𝐧𝐤𝐧𝐨𝐰𝐧\n\n𝐈𝐟 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐔𝐒𝐬𝐞 𝐎𝐮𝐫 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 @MrKachraSeth")
 #testing topranker
 # @bot.on_message(filters.command(["top"])& ~filters.edited)
 # async def upload(bot: Client, m: Message):
